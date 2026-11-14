@@ -9,7 +9,7 @@ brew install --cask zacaronii/amatsubame/yomu   # or miru, kiku, hiku
 
 They need macOS 26 or later on Apple silicon. The apps are signed with Developer ID and notarized.
 They're the same apps as on TestFlight, so install each one from one place only: remove the
-TestFlight copy before installing it here, and the other way round. Your settings stay.
+TestFlight copy before installing it here, and the other way round.
 
 `brew upgrade` updates them when a new version is released. `brew uninstall --zap` also removes an
 app's data, but not the setup the apps share.
