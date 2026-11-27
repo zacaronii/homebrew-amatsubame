@@ -12,6 +12,7 @@ cask "yomu" do
     strategy :github_releases
   end
 
+  conflicts_with cask: "yomu@dev"
   depends_on arch: :arm64
   depends_on macos: :tahoe
 

@@ -12,6 +12,7 @@ cask "kiku" do
     strategy :github_releases
   end
 
+  conflicts_with cask: "kiku@dev"
   depends_on arch: :arm64
   depends_on macos: :tahoe
 
