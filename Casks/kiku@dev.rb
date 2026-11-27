@@ -1,6 +1,6 @@
 cask "kiku@dev" do
-  version "0.4.0,202611272007"
-  sha256 "bb938103c0f0c0cf34ea0c0d777ac48126ae61072b741ed6e6ec88482810cc92"
+  version "0.4.0,202611272107"
+  sha256 "64d8e998b90ef5bbbc89a408093f6e8603f3b0ace22ffbcd6e4698d9294e2235"
 
   url "https://github.com/zacaronii/homebrew-amatsubame/releases/download/dev/Kiku-#{version.csv.first}-#{version.csv.second}.zip"
   name "Kiku (Dev)"
