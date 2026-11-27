@@ -1,6 +1,6 @@
 cask "hiku@dev" do
-  version "0.4.0,202611271408"
-  sha256 "b5a0531bf237de5054cebeaf319ffffc3450572c9c3d665d91c8761c95cb548b"
+  version "0.4.0,202611271440"
+  sha256 "e0f627e5dcefaa8022e5efdbdc4375407cf48c84f26a862b8e2c69090f645034"
 
   url "https://github.com/zacaronii/homebrew-amatsubame/releases/download/dev/Hiku-#{version.csv.first}-#{version.csv.second}.zip"
   name "Hiku (Dev)"
