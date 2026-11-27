@@ -20,4 +20,7 @@ cask "hiku@dev" do
 
   # The setup the apps share (group.com.amatsubame) stays: the other Amatsubame apps use it.
   zap trash: [
+    "~/Library/Containers/com.amatsubame.hiku",
+    "~/Library/Containers/com.amatsubame.hiku.extension",
+  ]
 end
