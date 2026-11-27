@@ -12,7 +12,7 @@ cask "miru@dev" do
     skip "Dev builds come from scripts/upload-dev.sh"
   end
 
-  conflicts_with cask: "miru"
+  conflicts_with cask: ["miru", "miru@mpv"]
   depends_on arch: :arm64
   depends_on macos: :tahoe
 

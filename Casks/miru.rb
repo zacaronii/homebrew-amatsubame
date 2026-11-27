@@ -12,7 +12,7 @@ cask "miru" do
     strategy :github_releases
   end
 
-  conflicts_with cask: "miru@dev"
+  conflicts_with cask: ["miru@dev", "miru@mpv"]
   depends_on arch: :arm64
   depends_on macos: :tahoe
 
