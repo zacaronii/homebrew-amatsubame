@@ -1,6 +1,6 @@
 cask "yomu@dev" do
-  version "0.4.0,202611280026"
-  sha256 "0177b1bc7b90d6103d5274e607ca05618361fb14d5673909482c07014bc7facb"
+  version "0.4.0,202611281321"
+  sha256 "2a870febc0e45e506b6fca55b5afafd21d05af3af7f51da2a2a78bf0800aca23"
 
   url "https://github.com/zacaronii/homebrew-amatsubame/releases/download/dev/Yomu-#{version.csv.first}-#{version.csv.second}.zip"
   name "Yomu (Dev)"

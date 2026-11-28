@@ -1,6 +1,6 @@
 cask "miru@dev" do
-  version "0.4.0,202611280026"
-  sha256 "b18cd1c2f592982966d5d8235edacedbaf3c9079b61b60f0e8864920f6b0ff6c"
+  version "0.4.0,202611281321"
+  sha256 "20965b3d9ae6ec187fedee965f4583ab0f1e75e75ec9b169dd9d8ac7cf5761e8"
 
   url "https://github.com/zacaronii/homebrew-amatsubame/releases/download/dev/Miru-#{version.csv.first}-#{version.csv.second}.zip"
   name "Miru (Dev)"
