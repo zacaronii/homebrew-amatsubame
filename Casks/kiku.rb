@@ -1,6 +1,6 @@
 cask "kiku" do
-  version "0.3.0"
-  sha256 "15ab92dd65619e4873e355f9282432f4e11cd7a5d02d1dc89d29b950b6383a6f"
+  version "0.4.0"
+  sha256 "252c6c36a8d9356dd6f773484559c416a7a83f7702ea5c191488bf973a683b40"
 
   url "https://github.com/zacaronii/amatsubame/releases/download/v#{version}/Kiku-#{version}.zip"
   name "Kiku"
